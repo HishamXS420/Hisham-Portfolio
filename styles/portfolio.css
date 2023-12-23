@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header and Navigation Styles */
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary{
+    color: #fd6e0a;
+}
+
+.btn-primary{
+    color: white;
+    height: 64px;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    margin-top: 5px;
+}
+
+.header{
+    /* More than one background image can be used */
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left; /* before comma : 1st image, after comma : 2nd image */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:50px 200px;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+/* Banner Styles */
+.banner{
+   
+    margin: 0 200px;  /* top left-right */
+    display: flex;
+    align-items: center;
+
+}
+
+.image{
+    width: 600px;
+    
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+   
+}
+
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.banner > div > p{
+    color : #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Main Section Styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto; /* justify-content: center ; can also be used, same result*/
+}
+
+/* About Section Styles */
+
+.about{
+    text-align: center;
+    margin-top: 130px;
+    background-color: #fff8f3;
+    border-radius: 10px;
+    padding: 130px 150px;
+
+}
+
+.section-title{
+   
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.section-title > p{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    margin: 50px 50px;
+    justify-content: space-between;
+}
+
+.about .info-title{
+    font-size: 20px;
+    color: #767676
+}
+
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
