@@ -42,7 +42,7 @@ section> div{
 nav{
     display: flex;
     justify-content: space-between;
-    margin:50px 200px;
+    padding:50px 200px;
 }
 
 nav li{
@@ -127,14 +127,16 @@ main{
 }
 
 .about .info-title{
-    font-size: 20px;
-    color: #767676
+    font-size: 18px;
+    color: #767676;
+    text-align: center;
 }
 
 .info-description{
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+    text-align: center;
 }
 
 /* What I do styles */
