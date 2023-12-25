@@ -32,6 +32,18 @@ section> div{
     margin-top: 5px;
 }
 
+.btn-secondary{
+    color: #fd6e0a;
+    height: 64px;
+
+    border-color: #fd6e0a;
+    margin-left: 10px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 5px;
+}
+
 .header{
     /* More than one background image can be used */
     background-color: #FFF8F3;
@@ -143,6 +155,7 @@ main{
 
 
 .skills-container{
+    margin-top: 50px;
    display: flex;
    gap: 24px;
 }
@@ -171,6 +184,7 @@ main{
 
 
 .resume-content{
+    margin-top: 50px;
     display: flex;
     gap: 24px;
 }
